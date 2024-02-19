@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #1da1f2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+/* Style the tweet box */
+.tweet-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.tweet-box textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: none;
+    font-size: 16px;
+}
+
+/* Style the tweet */
+.tweet {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.tweet p {
+    font-size: 14px;
+}
+
+/* Style the right sidebar */
+aside {
+    background-color: #f5f8fa;
+    padding: 1rem;
+}
+
+.premium-ad {
+    margin-bottom: 1rem;
+}
+
+.trending-topics ul {
+    list-style: none;
+}
+
+.trending-topics li {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
